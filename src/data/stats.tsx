@@ -1,22 +1,22 @@
-import { BsBarChartFill, BsFillStarFill } from "react-icons/bs";
+import { BsCodeSlash, BsFillStarFill } from "react-icons/bs";
 import { PiGlobeFill } from "react-icons/pi";
 
 import { IStats } from "@/types";
 
 export const stats: IStats[] = [
     {
-        title: "20M+",
-        icon: <BsBarChartFill size={34} className="text-blue-500" />,
-        description: "Transactions processed securely every day, providing real-time insights."
+        title: "5+",
+        icon: <BsCodeSlash size={34} className="text-blue-500" />,
+        description: "Custom digital products built — from MVPs to full-scale platforms.",
     },
     {
         title: "5.0",
         icon: <BsFillStarFill size={34} className="text-yellow-500" />,
-        description: "Star rating, consistently maintained across app stores."
+        description: "Average client rating across projects. We deliver what we promise.",
     },
     {
-        title: "200+ ",
+        title: "1+ Countries",
         icon: <PiGlobeFill size={34} className="text-green-600" />,
-        description: "Financial Institutions, seamlessly integrated, so you can manage all accounts."
-    }
+        description: "Global reach. Trusted by clients from Southeast Asia to Europe.",
+    },
 ];

@@ -7,31 +7,27 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Building scalable digital products for startups and businesses — with clarity, speed, and purpose.",
     quickLinks: [
         {
-            text: "Features",
-            url: "#features"
+            text: "Our Services",
+            url: "#services"
         },
         {
-            text: "Pricing",
-            url: "#pricing"
+            text: "Portfolio",
+            url: "#portfolio"
         },
         {
-            text: "Testimonials",
-            url: "#testimonials"
+            text: "Contact",
+            url: "#contact"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'hello@captiveau.com',
+    telephone: '+62 851-5626-5910',
     socials: {
-        // github: 'https://github.com',
-        // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
-        // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
-        // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
+        github: 'https://github.com/captiveau',
+        twitter: 'https://twitter.com/captiveau',
+        linkedin: 'https://www.linkedin.com/company/captiveau',
+        instagram: 'https://www.instagram.com/captiv.eau',
     }
 }

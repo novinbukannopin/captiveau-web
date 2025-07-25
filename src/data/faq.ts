@@ -3,23 +3,28 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: `Is ${siteDetails.siteName} experienced in building scalable products?`,
+        answer:
+            "Absolutely. We've helped startups and growing businesses build apps and platforms that scale — both in terms of traffic and features. From MVPs to full-blown SaaS, we’ve got your back.",
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: `What kind of projects can I build with ${siteDetails.siteName}?`,
+        answer:
+            `${siteDetails.siteName} specializes in building web apps, mobile apps, SaaS platforms, and internal tools. Whether it’s a marketplace, booking system, dashboard, or custom solution — we’ll tailor it to your needs.`,
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: `How involved will I be during the development process?`,
+        answer:
+            "As involved as you want to be. We use agile methodology, so you’ll get regular updates, prototypes, and a say in every sprint. Think of us as your extended tech team.",
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: 'Do you offer post-launch support?',
+        answer:
+            "Yes! We don’t disappear after shipping. We offer flexible maintenance and scaling plans, so your product keeps running smoothly as your business grows.",
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: 'Is my project idea safe with CAPTIVEAU?',
+        answer:
+            "Totally. We take confidentiality seriously. We can sign NDAs before any deep discussions, and your code and data are secured with best practices and private repositories.",
     }
 ];

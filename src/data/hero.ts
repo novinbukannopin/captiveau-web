@@ -1,5 +1,6 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    heading: 'Build Bold. Scale Smart. Launch Fast.',
+    subheading:
+        'CAPTIVEAU is your tech partner for turning ideas into powerful digital products — from MVPs to full-scale platforms, we’ve got you covered.',
     centerImageSrc: '/images/hero-mockup.webp',
 }
