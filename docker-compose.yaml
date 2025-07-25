@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    container_name: captiveau-fun
+    restart: always
+    ports:
+      - "3003:3003"
+    environment:
+      - NODE_ENV=production
+
+
+
